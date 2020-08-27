@@ -2,9 +2,5 @@
 sudo cp ./.bashrc ~/.bashrc
 sudo cp ./.vimrc ~/.vimrc
 sudo cp ./tmux.conf /etc/tmux.conf
-sudo apt-get install neovim nodejs python3-dev cmake build-essential npm 
-ssh-keygen -t rsa -b 4096 -C 'austinsmith7531@gmail.com'
-echo < eval $(ssh-agent -s)
-ssh-add ~/.ssh/id_rsa
-echo "Be sure to add the key to your Github Account https://docs.github.com/en/enterprise/2.15/user/articles/adding-a-new-ssh-key-to-your-github-account"
-echo ~/.ssh/id_rsa.pub
+sudo apt-get install tmux neovm nodejs python3-dev cmake build-essential npm apache2
+sudo git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
