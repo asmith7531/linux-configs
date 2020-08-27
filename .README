@@ -1,0 +1,22 @@
+To set up a new machine with my environment:
+
+enable Windows Subsystem for Linux
+Download Ubuntu from the Microsoft Store
+
+cp .vimrc .bashrc to ~/
+cp tmux.conf /etc/tmux.conf
+
+$ sudo apt-get install 
+    nodejs
+    python3-dev
+    cmake
+    build-essential
+    npm
+
+sudo apt-get install python3-venv python3-pip
+
+configure Github SSH Keys 
+
+vim ~./vimrc 
+# enter command mode and run the ":source %" command and the ":PluginInstall" command
+ 

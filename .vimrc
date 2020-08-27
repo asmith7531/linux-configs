@@ -1,0 +1,25 @@
+syntax on 
+set noerrorbells
+set tabstop=4 softtabstop=4
+set shiftwidth=4
+set expandtab
+set smartindent
+set nu
+set nowrap
+set smartcase
+set noswapfile
+set nobackup
+set undodir=~/.vim/undodir
+set undofile
+set incsearch
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'gmarik/Vundle.vim'
+Plugin 'tpope/vim-fugitive'
+Plugin 'vim-utils/vim-man'
+Plugin 'mbbill/undotree'
+Plugin 'gruvbox-community/gruvbox'
+Plugin 'jremmen/vim-ripgrep'
+Plugin 'git@github.com:kien/ctrlp.cim.git'
+Plugin 'git@github.com:ycm-core/YouCompleteMe.git'
+call vundle#end()
